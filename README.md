@@ -24,6 +24,12 @@ The purpose of this analysis is to explain to Louise how successful different ki
 
 ### What are some limitations of this dataset?
 
+It is difficult to determine why a kickstarter was successful based on the data. Questions that need to be asked are:
 
+1) How were the kickstarters advertised? How much was spent on advertising?
+
+2) We have amount pledged and number of backers, and the only number we can get from the two is average pledged per backer. How do we know if the average wasn't skewed by some outlier, say one millionaire funded 50% of the kickstarter?
 
 ### What are some other possible tables and/or graphs that we could create?
+
+Just by looking at the dataset, Spotlight and Percentage Funded are almost positively correlated. It almost looks like if the kickstarter had a spotlight, then the kickstarter would more than likely be fully funded, or close to fully funded. I can see the correlation thanks to the conditional formatting on the Percentage Funded column. If we conditionally formatted the spotlight to where true is blue and false is red, the two columns would almost look identical.
