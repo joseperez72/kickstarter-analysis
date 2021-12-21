@@ -6,7 +6,13 @@ The purpose of this analysis is to explain to Louise how successful different ki
 
 ## Analysis and Challenges
 
+### For Theater Outcomes by Launch Date
 
+- We used a pivot table where we filtered by Parent Category and Years, made our columns based on outcome, our rows by Date Created Conversion (Excel automatically inserted Years and Quarters, but we made sure to only have Date Created Conversion on rows), and values to count of Outcomes. We made this pivot chart to determine the best months to launch a kickstarter. We also made a line pivot chart to display the trends of the outcomes. Some of the challenges I faced was determining the axes of the pivot table. It definitely throws me off when the columns and values have the same variable. The other challenge I had was sorting the columns to show successful first.
+
+### For Outcomes Based on Goals
+
+- We created 12 goal amount ranges starting from $0 to over $50,000, by $5,000 increments, to count the number of successful, failed, and canceled kickstarters. We used the `COUNTIFS()` excel function with 3 criteria; the goal amount range, the outcome of the kickstarter, and the subcategory, which we filtered to plays only. We then added the total kickstarters for each range using the `SUM()` excel formula, and then gave a percentage for each outcome (successful, failed, and canceled) based on total projects. We then used this data to see what goal ranges were the most successful and which were the most failed ranges to give an estimate on how large the kickstarter goal should be. Some of the challenges I faced was getting the inequalities right in the `COUNTIFS()` formula. After correcting my formula, I also needed to use absolute	 references for my column ranges. This table took the longest to create as the formulas had to be exact and correct for all 36 cells (12 ranges, 3 outcomes). 
 
 ## Results
 
