@@ -12,7 +12,7 @@ The purpose of this analysis is to explain to Louise how successful different ki
 
 ### For Outcomes Based on Goals
 
-- We created 12 goal amount ranges starting from $0 to over $50,000, by $5,000 increments, to count the number of successful, failed, and canceled kickstarters. We used the `COUNTIFS()` excel function with 3 criteria; the goal amount range, the outcome of the kickstarter, and the subcategory, which we filtered to plays only. We then added the total kickstarters for each range using the `SUM()` excel formula, and then gave a percentage for each outcome (successful, failed, and canceled) based on total projects. We then used this data to see what goal ranges were the most successful and which were the most failed ranges to give an estimate on how large the kickstarter goal should be. Some of the challenges I faced was getting the inequalities right in the `COUNTIFS()` formula. After correcting my formula, I also needed to use absolute	 references for my column ranges. This table took the longest to create as the formulas had to be exact and correct for all 36 cells (12 ranges, 3 outcomes). 
+- We created 12 goal amount ranges starting from less than $1,000 to over $50,000, by $5,000 increments, to count the number of successful, failed, and canceled kickstarters. We used the `COUNTIFS()` excel function with 3 criteria; the goal amount range, the outcome of the kickstarter, and the subcategory, which we filtered to plays only. We then added the total kickstarters for each range using the `SUM()` excel formula, and then gave a percentage for each outcome (successful, failed, and canceled) based on total projects. We then used this data to see what goal ranges were the most successful and which were the most failed ranges to give an estimate on how large the kickstarter goal should be. Some of the challenges I faced was getting the inequalities right in the `COUNTIFS()` formula. After correcting my formula, I also needed to use absolute	 references for my column ranges. This table took the longest to create as the formulas had to be exact and correct for all 36 cells (12 ranges, 3 outcomes). 
 
 ## Results
 
@@ -39,3 +39,5 @@ It is difficult to determine why a kickstarter was successful based on the data.
 ### What are some other possible tables and/or graphs that we could create?
 
 Just by looking at the dataset, Spotlight and Percentage Funded are almost positively correlated. It almost looks like if the kickstarter had a spotlight, then the kickstarter would more than likely be fully funded, or close to fully funded. I can see the correlation thanks to the conditional formatting on the Percentage Funded column. If we conditionally formatted the spotlight to where true is blue and false is red, the two columns would almost look identical.
+
+![Spotlight_PercentFunded](Desktop/msu/github/challenges/challenge1/Spotlight_PercentFunded)
