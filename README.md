@@ -24,9 +24,13 @@ The purpose of this analysis is to explain to Louise how successful different ki
 
 2) When you filter out the months May through July, The two lines follow the same trend, meaning that the ratio between successful and failed kickstarter is almost the same. The lines peak and valley at the same time.
 
+![tovl](images/Theater_Outcomes_vs_Launch.png)
+
 ### What can you conclude about the Outcomes based on Goals?
 
 - My conclusion is that lower goal amounts tend to be more successful than goals with a high goal amount. A goal amount in the $0 - $9,999 amount have more successful kickstarter than it does failed kickstarters. Another goal range that had more successful kickstarters than failed was the $35,000 - $44,999 range, however, there is not enough data to back up that theory. 
+
+![ovg](images/Outcomes_vs_Goals.png)
 
 ### What are some limitations of this dataset?
 
