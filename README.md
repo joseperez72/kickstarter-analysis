@@ -40,4 +40,4 @@ It is difficult to determine why a kickstarter was successful based on the data.
 
 Just by looking at the dataset, Spotlight and Percentage Funded are almost positively correlated. It almost looks like if the kickstarter had a spotlight, then the kickstarter would more than likely be fully funded, or close to fully funded. I can see the correlation thanks to the conditional formatting on the Percentage Funded column. If we conditionally formatted the spotlight to where true is blue and false is red, the two columns would almost look identical.
 
-![Spotlight_TRUE](images/Spotlight_PercentFunded.png)
+![Spotlight_TRUE](images/Spotlight_PercentFunded.png) ![Spotlight_FALSE](images/Spotlight_False.png)
